@@ -1,0 +1,34 @@
+.startBoard{
+    background-color: rgb(87, 11, 87);
+    border-radius: 10%;
+    height: 350px;
+    width: 350px;
+    margin: 40px 0 0 0;
+}
+
+#selectTitle{
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.startButtons{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#X, #O{
+    height: 100px;
+    width: 100px;
+    margin: 0 10px 0 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: whitesmoke;
+}
+
+#X:hover, #O:hover{
+    border: 5px solid black;
+    cursor: pointer;
+}

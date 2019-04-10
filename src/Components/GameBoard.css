@@ -1,0 +1,70 @@
+.gameBoard{
+    background-color: rgb(87, 11, 87);
+    border-radius: 10%;
+    height: 350px;
+    width: 350px;
+    margin-top: 25px;
+}
+
+.gameRow1{  
+    padding-top: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#box0, #box1, #box2{
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke; 
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 3px;
+}
+
+#box0:hover, #box1:hover, #box2:hover{
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.gameRow2{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#box3, #box4, #box5{
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke; 
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 3px;
+}
+
+#box3:hover, #box4:hover, #box5:hover{
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.gameRow3{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#box6, #box7, #box8{
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke; 
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 3px;
+}
+
+#box6:hover, #box7:hover, #box8:hover{
+    border: 5px solid black;
+    cursor: pointer;
+}
